@@ -1,0 +1,111 @@
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eb7495;
+}
+header .logo
+{
+	position: relative;
+	max-width: 80px;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+
+.container
+{
+	margin-top: 150px;
+}
+.newarrival
+{
+	background: #eb7495;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.col-md-7 h2
+{
+	color: #555;
+}
+
+.price
+{
+	color: #eb7495;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+input
+{
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
+}
+
+.cart
+{
+	background: #eb7495;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.container-fluid {
+     overflow: hidden;
+     margin-top: 80px;
+     background: #eb7495;
+     color: #fff !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #fff !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .footer-khusus h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
